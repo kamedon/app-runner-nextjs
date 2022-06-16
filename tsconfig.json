@@ -26,6 +26,8 @@
   ],
   "exclude": [
     "node_modules",
-    "formation"
+    "formation",
+    "e2e"
+
   ]
 }
