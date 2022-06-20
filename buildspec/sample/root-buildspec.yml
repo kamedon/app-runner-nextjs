@@ -9,7 +9,7 @@ batch:
           IMAGE: public.ecr.aws/cypress-io/cypress/browsers:node14.19.0-chrome100-ff99-edge
   build-graph:
     - identifier: サンプル Task
-      buildspec: task-buildspec.yml
+      buildspec:  buildspec/sample/task-buildspec.yml
 phases:
   install:
     runtime-versions:
