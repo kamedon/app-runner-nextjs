@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e1f5aab-1f7a-468f-bd44-41865c9039ef" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/buildspec/sample/root-buildspec.yml" beforeDir="false" afterPath="$PROJECT_DIR$/buildspec/sample/root-buildspec.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +61,7 @@
       <workItem from="1655339004941" duration="9604000" />
       <workItem from="1655704529085" duration="540000" />
       <workItem from="1655757117811" duration="514000" />
-      <workItem from="1655759265606" duration="1617000" />
+      <workItem from="1655759265606" duration="2658000" />
     </task>
     <servers />
   </component>
