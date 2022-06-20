@@ -10,4 +10,4 @@ phases:
       - npm install
   build:
     commands:
-      - echo Hello
+      - echo Hello Task
