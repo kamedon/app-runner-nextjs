@@ -1,0 +1,13 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: latest
+  pre_build:
+    commands:
+      - cd e2e
+      - npm install
+  build:
+    commands:
+      - echo Hello
