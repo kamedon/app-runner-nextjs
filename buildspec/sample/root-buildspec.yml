@@ -4,7 +4,7 @@ batch:
   fast-fail: false
   build-graph:
     - identifier: task
-      buildspec:  buildspec/sample/root-buildspec.yml
+      buildspec:  buildspec/sample/task-buildspec.yml
 phases:
   install:
     runtime-versions:
@@ -15,4 +15,4 @@ phases:
       - npm install
   build:
     commands:
-      - echo Hello
+      - echo Hello Root
