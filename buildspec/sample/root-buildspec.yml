@@ -5,17 +5,3 @@ batch:
   build-graph:
     - identifier: task
       buildspec:  buildspec/sample/task-buildspec.yml
-phases:
-  install:
-    runtime-versions:
-      nodejs: latest
-  pre_build:
-    commands:
-      - cd e2e
-      - npm install
-  build:
-    commands:
-      - echo Hello Root
-cache:
-  paths:
-    - 'node_modules/**/*'
