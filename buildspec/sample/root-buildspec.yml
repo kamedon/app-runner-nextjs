@@ -16,3 +16,6 @@ phases:
   build:
     commands:
       - echo Hello Root
+cache:
+  paths:
+    - 'node_modules/**/*'
